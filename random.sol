@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract ShadeAgentRandom {
-    uint256 private randomNumber;
+contract ShadeAgentPrice {
+    uint256 private price;
 
     // Function to update the random number
-    function updateRandom(uint256 _random) public {
-        randomNumber = _random;
+    function updatePrice(uint256 _price) public {
+        price = _price;
     }
 
     // Function to view the current random number
-    function getRandom() public view returns (uint256) {
-        return randomNumber;
+    function getPrice() public view returns (uint256) {
+        return price;
     }
 }
